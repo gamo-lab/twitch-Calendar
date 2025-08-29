@@ -1,0 +1,67 @@
+body {
+ 
+   font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74b3b8 23%,  50%, #e14edc 90%);
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+
+}
+h1, h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+
+    
+}
+
+
+.gradient-text {
+    background-image: linear-gradient(to left, rgb(203, 70, 8), rgb(57, 9, 177));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.table {
+    margin: auto;
+    width: 80%;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.month {
+    margin-bottom: 20px;
+}
+
+.table th {
+    background-color: #4069b6;
+    color: white;
+}
+
+.table td {
+    background-color: #e9ecef;
+    
+}
+
+.table td:hover {
+    background-color: #deecc7;
+    cursor: pointer;
+}
+
+.holiday {
+    background-color: #ffcccc;
+    color: #ff0000;
+}
+
+.event {
+    background-color: #cce5ff;
+    color: #004085;
+}
